@@ -1,7 +1,7 @@
 .full-blog-area{
     background: #F4FEFE;
     padding: 50px 0px 0px 20px;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
 }
 .inner-full-blog-area h2{
     padding: 20px 0px;
@@ -27,6 +27,7 @@
 
 .single-blog{
     border-radius: 10px;
+    transition: .9s;
 }
 .single-blog:hover{
    background: #00DBD0;

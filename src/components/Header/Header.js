@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css';
 import Resume from '../image/my-cv-final.pdf';
-import MyPhoto from '../image/Untitled-4_50.png';
+import MyPhoto from '../image/Career-Software-Engineer.png';
+import Typical from 'react-typical';
 
 const Header = () => {
     return (
@@ -11,7 +12,13 @@ const Header = () => {
                     <div className="row">
                         <div className="col-md-6 d-flex align-items-center header-left">
                             <div>
-                            <h1> Hello & Welcome</h1>
+                                <h1>     
+                                <Typical
+                                        steps={['HELLO',1000,'&',1000, 'WELCOME', 1000]}
+                                        loop={Infinity}
+                                        wrapper="p"
+                                />
+                              </h1>
                             <h5>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.</h5>
                             <a href={Resume}  download>Get Resume</a>
                             </div>

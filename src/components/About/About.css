@@ -1,6 +1,6 @@
 .full-about-area{
     background: #F4FEFE;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     padding-top: 40px;
 }
 .inner-about-area{
@@ -26,11 +26,11 @@
 .about-details-area h6{
     color: #374B5C;
     text-align: left;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
 }
 .about-details-area p{
     color: #374B5C;
     text-align: left;
-    font-size: 24px;
+    font-size: 18px;
 }

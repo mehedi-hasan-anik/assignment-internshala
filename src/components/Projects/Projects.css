@@ -1,16 +1,8 @@
 .projects-full-area{
    background: #F3FEFE;
-   font-family: LibreBaskerville;
+   font-family: 'Libre Baskerville', serif;
 }
-/* .inner-projects h1{
-    text-align: center;
-    color: white;
-    padding: 30px 0px;
-    font-weight: 700;
-    background: -webkit-linear-gradient(-65deg,red,blue,red,blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
+
 .inner-projects h2{
     padding: 20px 0px;
     color: #374B5C;
@@ -27,6 +19,6 @@
     top: 90px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 320px;
+    width: 350px;
     height: 3px;
 }

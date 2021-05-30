@@ -4,7 +4,7 @@
     background-size: cover;
     background: #F3FEFE;
     padding-top: 40px;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
 }
 .inner-full-skill-area h2{
     padding: 20px 0px;
@@ -36,6 +36,8 @@
 .bar h3{
     text-align: left;
     color: #374B5C;
+    font-size: 18px;
+    font-weight: bold;
 }
 .bar{
     display: inline-block;
@@ -99,7 +101,7 @@
      text-align: center;
      line-height: 35px;
      position: absolute;
-     top:36px;
+     top:26px;
      z-index: 1;
      background: linear-gradient(to left,grey,rgb(36, 36, 85));
      box-shadow: 0 5px 20px #374B5C, 0 5px 20px #00DBD0;

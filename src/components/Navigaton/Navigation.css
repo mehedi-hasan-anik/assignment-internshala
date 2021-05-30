@@ -1,6 +1,6 @@
 .full-nav-area{
     background: #F3FEFE;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
   }
   
   .nav-full-area{
@@ -28,19 +28,13 @@
   }
   
   .navigation-area ul li .nav-link{
-    font-size: 18px;
+    font-size: 14px;
     line-height: 21px;
     padding: 10px 25px;
     border: 1px solid transparent;
     border-radius: 10px;
     color: #374b5c;
 
-        /* width: 141px;
-        height: 46px;
-        margin: 5.5px 0 182px 46px;
-        padding: 12px 48px 13px 38px;
-        border-radius: 10px;
-        border: solid 2px #00dbd0; */
   }
   .navigation-area ul li .nav-link:hover{
     border: 1px solid #00DBD0;

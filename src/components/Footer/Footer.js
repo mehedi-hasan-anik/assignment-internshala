@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faGooglePlusG, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import FooterCol from '../FooterCol/FooterCol';
 
 const Footer = () => {
@@ -32,9 +32,9 @@ const Footer = () => {
                 <FooterCol key={3} menuTitle="Back To Home" menuItems={Home}/>
                 <FooterCol key={4} menuTitle="Follow Me" menuItems={ourAddress}> 
                     <ul className="social-media list-inline">
-                        <li className="list-inline-item"><a href="//facebook.com"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
-                        <li className="list-inline-item"><a href="//google.com"><FontAwesomeIcon className="icon" icon={faGooglePlusG} /></a></li>
-                        <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
+                        <li className="list-inline-item"><a href="https://www.facebook.com/anik.ahamed.908/"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
+                        <li className="list-inline-item"><a href="https://github.com/mehedi-hasan-anik"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
+                        <li className="list-inline-item"><a href="https://www.linkedin.com/in/anik-hasan-051072211/"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a></li>
                     </ul>
                     <div className="mt-5">
                         <h6>Call now</h6>

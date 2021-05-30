@@ -1,5 +1,5 @@
 .project-full-area{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -14,7 +14,7 @@
     color: #fff;
 }
 .card-area p{
-    font-size: 24px;
+    font-size: 18px;
 }
 .card-area h3{
     font-size: 35px;
@@ -33,6 +33,11 @@
 .card-area ul li a{
     text-decoration: none;
     padding: 5px 20px;
-    border: 1px solid grey;
+    border: 1px solid #00DBD0;
     border-radius: 5px;
+    color: #374B5C;
+}
+.card-area:hover ul li a{
+    border: 1px solid #fff;
+    color: #fff;
 }

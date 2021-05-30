@@ -5,7 +5,7 @@
     /* background: linear-gradient(#10121B, #10121B), url(../Image/HvIEnr.png); */
     background: #F4FEFE;
     padding: 100px 0px;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .inner-full-resume-area h2{
@@ -40,16 +40,14 @@
     color: #fff;
 }
 .cart-area{
-    /* box-shadow: 10px 10px 30px gray; */
-    padding: 10px;
+    padding: 25px 10px;
     margin: 10px;
     border: 1px dashed #00DBD0;
     border-radius: 10px;
-    /* box-shadow: 10px 10px 30px rgb(101, 101, 165); */
 }
 .cart-area ul li{
    text-align: left;
-   font-size: 24px;
+   font-size: 18px;
 }
 .cart-area h3{
     text-align: left;
@@ -60,7 +58,7 @@
 }
 .cart-area p{
    text-align: left;
-   font-size: 24px;
+   font-size: 18px;
 }
 .cart-area h4{
     padding: 10px;
@@ -70,5 +68,5 @@
 .cart-area h6{
     padding:0px 10px;
     text-align: left;
-    font-size: 24px;
+    font-size: 18px;
 }

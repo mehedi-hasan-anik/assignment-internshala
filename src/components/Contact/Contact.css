@@ -1,11 +1,7 @@
 .full-contact-area{
-    /* background: url(../image/Group\ 228.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    height: 600px;
     background: #F3FEFE;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 100px;
 }
 
 .inner-contact-area h2{
@@ -22,7 +18,7 @@
     top: 90px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 400px;
     height: 3px;
 }
 .form-area{
@@ -31,32 +27,33 @@
   
 }
 .inner-form-area{
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 .inner-form-area input{
-    padding: 5px 10px;
-    margin-bottom: 10px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid #00DBD0;
 }
 .inner-form-area textarea{
-    padding: 10px 20px;
-    margin-bottom: 10px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px solid #00DBD0;
 }
 .phone-email-area{
-    max-width: 400px;
-    width: 100%;
     margin: 0 auto;
     text-align: center;
-    color: white; 
 }
+.phone-email-area h4{
+    font-size: 18px;
+}
+
 .follow-area{
 
 }
