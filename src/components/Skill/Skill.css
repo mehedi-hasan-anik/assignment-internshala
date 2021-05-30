@@ -1,0 +1,131 @@
+.full-skill-area{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F3FEFE;
+    padding-top: 40px;
+    font-family: LibreBaskerville;
+}
+.inner-full-skill-area h2{
+    padding: 20px 0px;
+    color: #374B5C;
+    position: relative;
+    font-size: 45px;
+    font-weight: bold;
+}
+.inner-full-skill-area h2::after{
+    position: absolute;
+    content: '';
+    background: #00DBD0;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 3px;
+}
+
+.wrap{
+   max-width: 60%;
+   margin: 0 auto;
+   padding: 100px 0px;
+}
+.bar{
+   letter-spacing: 1px;
+   position: relative;
+}
+.bar h3{
+    text-align: left;
+    color: #374B5C;
+}
+.bar{
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.bar span{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    display: inline-block;
+    background: #00DBD0;
+    border-radius: 50px;
+}
+.bar span:before{
+     content: '';
+   position: absolute;
+   top: 6px;
+   left: 5px;
+   width: 80%;
+   height: 50%;
+   /* background: linear-gradient(to left,grey,rgb(36, 36, 85)); */
+   background: #374B5C;
+   border-radius: 50px;
+   animation: bar 4s ease;
+}
+
+@keyframes bar{
+    from{
+        width: 0;
+    }
+    
+}
+.bar:nth-child(1) span:before{
+   width: 80%;
+}
+.bar:nth-child(2) span:before{
+    width: 80%;
+ }
+ .bar:nth-child(3) span:before{
+    width: 70%;
+ }
+ .bar:nth-child(4) span:before{
+    width: 90%;
+ }
+ .bar:nth-child(5) span:before{
+    width: 80%;
+ }
+ .bar:nth-child(6) span:before{
+    width: 80%;
+ }
+
+ abbr{
+    color: #fff;
+     font-size: 15px;
+     max-width: 60px;
+     width: 100%;
+     display: inline-block;
+     height: 30px;
+     border-radius: 50px;
+     text-align: center;
+     line-height: 35px;
+     position: absolute;
+     top:36px;
+     z-index: 1;
+     background: linear-gradient(to left,grey,rgb(36, 36, 85));
+     box-shadow: 0 5px 20px #374B5C, 0 5px 20px #00DBD0;
+     animation: count 4s ease;
+ }
+
+ @keyframes count{
+     from{
+         left: 0%;
+     }
+ }
+ .bar:nth-child(1) abbr{
+     left: 80%;
+ }
+ .bar:nth-child(2) abbr{
+    left: 80%;
+}
+.bar:nth-child(3) abbr{
+    left: 70%;
+}
+.bar:nth-child(4) abbr{
+    left: 90%;
+}
+.bar:nth-child(5) abbr{
+    left: 80%;
+}
+.bar:nth-child(6) abbr{
+    left: 80%;
+}

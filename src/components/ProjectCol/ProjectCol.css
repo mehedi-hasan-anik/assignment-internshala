@@ -1,0 +1,38 @@
+.project-full-area{
+    font-family: LibreBaskerville;
+}
+
+
+.card-area{
+    /* height: 540px; */
+    border: 1px dashed #00DBD0;
+    color: #374B5C;
+    border-radius: 20px;
+}
+.card-area:hover{
+    background: #00DBD0;
+    color: #fff;
+}
+.card-area p{
+    font-size: 24px;
+}
+.card-area h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.card-area ul{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.card-area ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.card-area ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}

@@ -1,0 +1,74 @@
+.full-resume-area{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(#10121B, #10121B), url(../Image/HvIEnr.png); */
+    background: #F4FEFE;
+    padding: 100px 0px;
+    font-family: LibreBaskerville;
+}
+
+.inner-full-resume-area h2{
+    padding: 20px 0px;
+    color: #374B5C;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.inner-full-resume-area h2::after{
+    position: absolute;
+    content: '';
+    background: #00DBD0;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 3px;
+}
+
+.download-area{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 18px;
+}
+.download-area a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #00DBD0;
+    color: #fff;
+}
+.cart-area{
+    /* box-shadow: 10px 10px 30px gray; */
+    padding: 10px;
+    margin: 10px;
+    border: 1px dashed #00DBD0;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 30px rgb(101, 101, 165); */
+}
+.cart-area ul li{
+   text-align: left;
+   font-size: 24px;
+}
+.cart-area h3{
+    text-align: left;
+    margin: 10px 0px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.cart-area p{
+   text-align: left;
+   font-size: 24px;
+}
+.cart-area h4{
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+.cart-area h6{
+    padding:0px 10px;
+    text-align: left;
+    font-size: 24px;
+}

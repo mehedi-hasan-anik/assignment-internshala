@@ -1,0 +1,44 @@
+.full-header-area{
+   background: #F4FEFE;
+   padding: 150px 0px 0px 40px;
+}
+.inner-full-header-area{
+
+}
+.header-left{
+
+}
+.header-left h1{
+  color: #374B5C;
+  font-size: 56px;
+  font-weight:700;
+  margin-bottom: 40px;
+  font-family: LibreBaskerville;
+
+}
+.header-left h5{
+  margin-bottom: 40px;
+  color: #374B5C;
+  text-align:left;
+  font-family: LibreBaskerville;
+  font-size: 24px;
+}
+.header-left a{
+    text-decoration: none;
+    background: #00DBD0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+  
+}
+.header-right{
+    /* padding: 64.5px 65.3px 65px 66px; */
+    margin: 0 auto;
+}
+.header-right img{
+    border: solid 3px #00dbd0;
+    width: 350px;
+    height: 400px;
+ }
+
+

@@ -1,0 +1,36 @@
+.full-about-area{
+    background: #F4FEFE;
+    font-family: LibreBaskerville;
+    padding-top: 40px;
+}
+.inner-about-area{
+
+}
+.about-photo-area{
+
+}
+.about-photo-area img{
+    height: 600px ;
+    width: 80%;
+}
+.about-details-area{
+
+}
+.about-details-area h2{
+    color: #374B5C;
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.about-details-area h6{
+    color: #374B5C;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+.about-details-area p{
+    color: #374B5C;
+    text-align: left;
+    font-size: 24px;
+}
