@@ -13,7 +13,7 @@ const Blog = () => {
                <div className="inner-full-blog-area">
                    <h2>BLOG</h2>
                      <div className="row">
-                         <div className="col-md-6 mb-2">
+                         <div className="col-md-6 mb-5">
                              <a href="https://anikm2283.medium.com/10-tricky-things-of-javascript-dc1f7e953fe6">
                              <div className="single-blog">
                                 <img src={Photo1} alt="" />

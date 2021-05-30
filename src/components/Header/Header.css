@@ -30,7 +30,6 @@
     padding: 10px 20px;
     border-radius: 10px;
     text-transform: uppercase;
-  
 }
 .header-right{
     margin: 0 auto;
@@ -41,3 +40,14 @@
  }
 
 
+
+
+ @media only screen and (max-width: 768px) {
+  .header-left{
+    padding-bottom: 50px;
+  }
+  .header-right img{
+    padding: 0;
+    margin: 0;
+ }
+}

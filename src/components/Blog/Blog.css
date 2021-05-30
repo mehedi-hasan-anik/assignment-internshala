@@ -28,6 +28,7 @@
 .single-blog{
     border-radius: 10px;
     transition: .9s;
+    border: 1px dashed #00DBD0;
 }
 .single-blog:hover{
    background: #00DBD0;

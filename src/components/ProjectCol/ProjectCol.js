@@ -5,7 +5,7 @@ const ProjectCol = ({event}) => {
     return (
         <div className="project-full-area">
            <div className="container">
-                <div className="card m-3 p-3 card-area">
+                <div className="card m-3  card-area">
                     <img src={event.photo} alt=""/>
                     <h3 className="mt-3">{event.name}</h3>
                     <p>{event.details}</p>

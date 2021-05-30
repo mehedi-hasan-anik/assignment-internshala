@@ -4,10 +4,12 @@
 
 
 .card-area{
-    /* height: 540px; */
     border: 1px dashed #00DBD0;
     color: #374B5C;
     border-radius: 20px;
+}
+.card-area img{
+    border-radius: 10px 10px 0px 0px;
 }
 .card-area:hover{
     background: #00DBD0;
@@ -15,6 +17,8 @@
 }
 .card-area p{
     font-size: 18px;
+    padding: 15px;
+    text-align: justify;
 }
 .card-area h3{
     font-size: 35px;
@@ -29,6 +33,7 @@
     list-style: none;
     display: inline-block;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 .card-area ul li a{
     text-decoration: none;
@@ -41,3 +46,5 @@
     border: 1px solid #fff;
     color: #fff;
 }
+
+

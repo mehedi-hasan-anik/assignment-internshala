@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.css';
 
-import Project1 from '../image/Screenshot (46).png';
-import Project2 from '../image/Screenshot (47).png';
+import Project1 from '../image/Screenshot (81).png';
+import Project2 from '../image/Screenshot (82).png';
 import Project3 from '../image/Screenshot (48).png';
 import Project4 from '../image/Screenshot (49).png';
 import Project5 from '../image/Screenshot (50).png';
